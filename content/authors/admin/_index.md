@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: Sei Chang
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
@@ -144,10 +144,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: Korean
     percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +181,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD candidate in Computer Science at Columbia University advised by [David A. Knowles](https://daklab.github.io/) at the New York Genome Center. My research focuses on applying deep learning and generative modeling to learn single-cell dynamics and alternative splicing mechanisms in neurodegenerative disease. Using AI methods to derive biological insights from omics data is an exciting research avenue, and I look forward to continue exploring the intersection between machine learning and biology.
