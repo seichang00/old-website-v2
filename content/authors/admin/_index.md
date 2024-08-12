@@ -24,11 +24,13 @@ role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: NSF GRFP Fellow
   - name: Columbia University
     url: https://www.cs.columbia.edu/
   - name: New York Genome Center
     url: https://www.nygenome.org/
+
+# Short bio (displayed in user profile at end of posts)
+bio: Machine learning and computational genomics researcher at Columbia University and New York Genome Center.
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -59,32 +61,25 @@ education:
     date_start: 2022-09-01
     date_end: 2027-06-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      PhD Candidate in Computer Science at Columbia University advised by Prof. David A. Knowles. NSF GRFP Fellow 2022.
+
+      Interested in applying deep learning and generative modeling to study single-cell omics and alternative splicing in neurodegenerative disease.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
   - area: MS in Computer Science, 2022
     institution: Columbia University
     date_start: 2022-09-01
     date_end: 2024-02-01
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    summary: 
   - area: BS in Computer Science, 2022
     institution: University of California, Los Angeles
     date_start: 2018-09-01
     date_end: 2022-05-01
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.91/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Bioinformatics Researcher at UCLA Computational Medicine advised by Prof. Eleazar Eskin.
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -97,8 +92,8 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Software Engineering Intern
+    company_name: Yahoo Inc.
     company_url: ''
     company_logo: ''
     date_start: 2016-01-01
@@ -111,7 +106,7 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
+# skills:
   # - name: Technical Skills
   #   items:
   #     - name: Python
@@ -143,17 +138,17 @@ skills:
   #       percent: 80
   #       icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Korean
-    percent: 75
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Korean
+#     percent: 75
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
+# awards:
   # - title: Neural Networks and Deep Learning
   #   url: https://www.coursera.org/learn/neural-networks-deep-learning
   #   date: '2023-11-25'
@@ -183,4 +178,6 @@ awards:
 
 ## About Me
 
-I am a PhD candidate in Computer Science at Columbia University advised by [David A. Knowles](https://daklab.github.io/) at the New York Genome Center. My research focuses on applying deep learning and generative modeling to learn single-cell dynamics and alternative splicing mechanisms in neurodegenerative disease. Using AI methods to derive biological insights from omics data is an exciting research avenue, and I look forward to continue exploring the intersection between machine learning and biology.
+I am a Computer Science PhD candidate at Columbia University advised by [David A. Knowles](https://daklab.github.io/) at the New York Genome Center. My research is partially sponsored by the NSF Graduate Research Fellowship (GRFP).
+
+My research focuses on applying deep learning and generative modeling to learn single-cell dynamics and alternative splicing mechanisms in neurodegenerative disease. Using AI methods to derive biological insights from multiomics is an exciting research avenue that will shape the future of health and medicine, and I look forward to continue exploring this unique intersection between machine learning and biology.

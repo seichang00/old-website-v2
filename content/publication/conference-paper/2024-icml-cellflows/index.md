@@ -12,8 +12,8 @@ authors:
 
 # Author notes (optional)
 # author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  # - 'Equal contribution'
+  # - 'Equal contribution'
 
 date: '2024-07-17T00:00:00Z'
 doi: ''
@@ -33,7 +33,7 @@ publication_short: In *ICML'24 Workshop ML for Life and Material Science*
 abstract: RNA velocity-based methods estimate cellular dynamics and cell developmental trajectories based on spliced and unspliced RNA counts. Although numerous methods have been proposed, RNA velocity-based models vary greatly in their biophysical assumptions, architectures, and use cases. In this work, we introduce a new architecture, CellFlows, which incorporates self-supervised neural dimensionality reduction with the flexibility of neural-based latent time estimation into a mechanistic model, improving model interpretability and accuracy. CellFlows models splicing dynamics to infer gene and context-specific kinetic rates at single-cell resolution and correctly identifies both linear and branching cellular differentiation pathways originating from mouse embryonic stem cells.
 
 # Summary. An optional shortened abstract.
-summary: CellFlows is a novel architecture that infers mechanistic cell and gene-specific transcription, splicing, and decay kinetics to regularize the latent representations learned through a VAE and neural ODEs.
+summary: RNA velocity-based methods estimate cellular dynamics and cell developmental trajectories based on spliced and unspliced RNA counts. In this work, we introduce a new architecture, CellFlows, which incorporates self-supervised neural dimensionality reduction with the flexibility of neural-based latent time estimation into a mechanistic model, improving model interpretability and accuracy. CellFlows models splicing dynamics to infer gene and context-specific kinetic rates at single-cell resolution and correctly identifies both linear and branching cellular differentiation pathways originating from mouse embryonic stem cells.
 
 tags:
   - single-cell dynamics
